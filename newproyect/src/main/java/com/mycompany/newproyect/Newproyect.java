@@ -26,7 +26,30 @@ public class Newproyect {
         System.out.println("3. multiplicacion");
         System.out.println("4. division");
         
-        
-                
+       int opcion = scanner.nextInt();
+       double resultado = 0;
+       
+       switch (opcion){
+          case 1:
+               resultado = num1 + num2 ;
+               break;
+                       
+          case 2 :
+               resultado = num1 - num2;
+               break;
+                       
+          case 3:
+               resultado = num1 * num2 ;
+               break;
+               
+          case 4:
+              if (num2 != 0){
+               resultado = num1 / num2 ;
+              }else {
+                  System.out.println("No se puede dividir por 0.");
+                  scanner.close();
+                  return;
+              }     
     }
+}
 }
