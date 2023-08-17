@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.newproyect;
-
+import java.util.Scanner;
 /**
  *
  * @author Alumno
@@ -14,6 +14,13 @@ public class Newproyect {
         
       Scanner scanner  = new Scanner (System.in);
       
-       
+        System.out.println("Ingrese el primer numero: ");
+        double num1 = scanner.nextDouble();
+        
+        System.out.println("Ingrese el segundo numero: ");
+        double num2 = scanner.nextDouble();
+        
+        
+                
     }
 }
