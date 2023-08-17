@@ -19,6 +19,10 @@ public class Projecto_grupal {
         System.out.println("2: Resta");
         System.out.println("3: Multiplicacion");
         System.out.println("4: Division");
-        
+        System.out.println("Selecciona una operacion (1/2/3/4): ");
+        int option =sc.nextInt();
+        System.out.println("Ingresa el primer numero: ");
+        double n1 =sc.nextDouble();
+        System.out.println("Ingresa el segundo numero:");
     }
 }
