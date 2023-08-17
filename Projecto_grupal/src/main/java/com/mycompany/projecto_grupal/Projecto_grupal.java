@@ -24,5 +24,28 @@ public class Projecto_grupal {
         System.out.println("Ingresa el primer numero: ");
         double n1 =sc.nextDouble();
         System.out.println("Ingresa el segundo numero:");
+        double n2 =sc.nextDouble();
+        double result=0.0;
+        switch (option){
+            case 1:
+                result=n1+n2;
+                break;
+            case 2:
+                result=n1-n2;
+                break;
+            case 3:
+                result=n1*n2;
+                break;
+            case 4:
+                if (n2!=0){
+                    result=n1/n2;
+                    
+                }else{
+                    System.out.println("No se puede dividir por 0");
+                    return;
+                }
+                break;
+            
+        }
     }
 }
