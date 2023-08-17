@@ -49,7 +49,15 @@ public class Newproyect {
                   System.out.println("No se puede dividir por 0.");
                   scanner.close();
                   return;
-              }     
+              }   
+              break ;
+          default:
+              System.out.println("opcion no  valida");
+              scanner.close();
+              return;
+       }  
+             System.out.println("el resultado es: " + resultado);
+             scanner.close();
     }
-}
+
 }
