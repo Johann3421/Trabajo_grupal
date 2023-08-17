@@ -50,5 +50,6 @@ public class Projecto_grupal {
                 return;
             
         }
+        System.out.println("Resultado: "+n1+" operacion "+n2+" = "+result);
     }
 }
