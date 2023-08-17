@@ -20,6 +20,12 @@ public class Newproyect {
         System.out.println("Ingrese el segundo numero: ");
         double num2 = scanner.nextDouble();
         
+        System.out.println("seleccione la operacion");
+        System.out.println("1. suma");
+        System.out.println("2. resta");
+        System.out.println("3. multiplicacion");
+        System.out.println("4. division");
+        
         
                 
     }
