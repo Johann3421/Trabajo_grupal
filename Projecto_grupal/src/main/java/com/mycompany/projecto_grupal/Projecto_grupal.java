@@ -45,6 +45,9 @@ public class Projecto_grupal {
                     return;
                 }
                 break;
+            default:
+                System.out.println("Operacion Invalida.");
+                return;
             
         }
     }
